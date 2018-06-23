@@ -1,0 +1,24 @@
+------one file-------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -g   -std=gnu++11 -o CMakeFiles/cmake_generator.dir/main.cpp.o -c /Users/alvaro/ClionProjects/cmake_generator/main.cpp
+
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmake_generator.dir/main.cpp.o  -o cmake_generator
+
+
+cmake_minimum_required(VERSION 3.10)
+project(cmake_generator)
+set(CMAKE_CXX_STANDARD 11)
+add_executable(cmake_generator main.cpp)
+
+------two files------
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -g   -std=gnu++11 -o CMakeFiles/cmake_generator.dir/main.cpp.o -c /Users/alvaro/ClionProjects/cmake_generator/main.cpp
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -g   -std=gnu++11 -o CMakeFiles/cmake_generator.dir/impl0.cpp.o -c /Users/alvaro/ClionProjects/cmake_generator/impl0.cpp
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmake_generator.dir/main.cpp.o CMakeFiles/cmake_generator.dir/impl0.cpp.o  -o cmake_generator 
+
+
+cmake_minimum_required(VERSION 3.10)
+project(cmake_generator)
+set(CMAKE_CXX_STANDARD 11)
+add_executable(cmake_generator main.cpp impl0.cpp)

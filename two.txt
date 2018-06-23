@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -g   -std=gnu++11 -o CMakeFiles/cmake_generator.dir/main.cpp.o -c /Users/alvaro/ClionProjects/cmake_generator/main.cpp
