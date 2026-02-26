@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# cmakegen artifacts
+*.o
+.cmakegen_log.jsonl
+example/CMakeLists.txt
+example/example_app
+example/example_app.exe
